@@ -1,0 +1,36 @@
+package vtiger.ObjectRepository;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class ContactsInfoPage 
+{
+	//Declaration
+	@FindBy(xpath="//span[@class='dvHeaderText']")
+	private WebElement ConHeaderText;
+	
+	//Initialization
+	public ContactsInfoPage(WebDriver driver)
+	{
+		PageFactory.initElements(driver, this);
+	}
+	//Utilization
+
+	public WebElement getConHeaderText() {
+		return ConHeaderText;
+	}
+	
+	//business library
+	
+	public String getContactHeader() 
+	{
+		
+		String contactHeader=ConHeaderText.getText();
+		return contactHeader;
+	}
+	
+	
+
+}

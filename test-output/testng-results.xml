@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Database connection successfully]]>
+    </line>
+    <line>
+      <![CDATA[firefox browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Org Link Clicked]]>
+    </line>
+    <line>
+      <![CDATA[New Oeganization Img Created]]>
+    </line>
+    <line>
+      <![CDATA[New Organization Page]]>
+    </line>
+    <line>
+      <![CDATA[contacts link clicked]]>
+    </line>
+    <line>
+      <![CDATA[New contacts Img Created]]>
+    </line>
+    <line>
+      <![CDATA[New contact with organization Created]]>
+    </line>
+    <line>
+      <![CDATA[signout successfull]]>
+    </line>
+    <line>
+      <![CDATA[close the browser successfully]]>
+    </line>
+    <line>
+      <![CDATA[close the database connection]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-12T19:54:13 IST" name="Suite" finished-at="2022-09-12T19:54:46 IST" duration-ms="32494">
+    <groups>
+      <group name="SmokeSuite">
+        <method signature="CreateContactwithOrgTest.CreateContactWithOrgTest()[pri:0, instance:vtiger.ContactsTests.CreateContactwithOrgTest@61862a7f]" name="CreateContactWithOrgTest" class="vtiger.ContactsTests.CreateContactwithOrgTest"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test started-at="2022-09-12T19:54:13 IST" name="Test" finished-at="2022-09-12T19:54:46 IST" duration-ms="32494">
+      <class name="vtiger.ContactsTests.CreateContactwithOrgTest">
+        <test-method is-config="true" signature="bsConnectDB()[pri:0, instance:vtiger.ContactsTests.CreateContactwithOrgTest@61862a7f]" started-at="2022-09-12T19:54:13 IST" name="bsConnectDB" finished-at="2022-09-12T19:54:13 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database connection successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsConnectDB -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactwithOrgTest@61862a7f]" started-at="2022-09-12T19:54:14 IST" name="bcConfig" finished-at="2022-09-12T19:54:20 IST" duration-ms="5695" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[firefox browser launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactwithOrgTest@61862a7f]" started-at="2022-09-12T19:54:20 IST" name="bmConfig" finished-at="2022-09-12T19:54:22 IST" duration-ms="2885" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="CreateContactWithOrgTest()[pri:0, instance:vtiger.ContactsTests.CreateContactwithOrgTest@61862a7f]" started-at="2022-09-12T19:54:22 IST" name="CreateContactWithOrgTest" finished-at="2022-09-12T19:54:42 IST" duration-ms="19085" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Org Link Clicked]]>
+            </line>
+            <line>
+              <![CDATA[New Oeganization Img Created]]>
+            </line>
+            <line>
+              <![CDATA[New Organization Page]]>
+            </line>
+            <line>
+              <![CDATA[contacts link clicked]]>
+            </line>
+            <line>
+              <![CDATA[New contacts Img Created]]>
+            </line>
+            <line>
+              <![CDATA[New contact with organization Created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateContactWithOrgTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactwithOrgTest@61862a7f]" started-at="2022-09-12T19:54:42 IST" name="amConfig" finished-at="2022-09-12T19:54:43 IST" duration-ms="1268" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[signout successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactwithOrgTest@61862a7f]" started-at="2022-09-12T19:54:43 IST" name="acConfig" finished-at="2022-09-12T19:54:46 IST" duration-ms="2988" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close the browser successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactwithOrgTest@61862a7f]" started-at="2022-09-12T19:54:46 IST" name="asConfig" finished-at="2022-09-12T19:54:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close the database connection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- vtiger.ContactsTests.CreateContactwithOrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
